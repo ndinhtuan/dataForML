@@ -1,8 +1,13 @@
-﻿Build started 7/28/2016 9:37:15 AM.
+﻿Build started 8/5/2016 11:26:02 AM.
      1>Project "C:\Users\9470m\Documents\Visual Studio 2013\Projects\CreateData\CreateData\CreateData.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\8_3\opencv\sources\modules\core\include\opencv2\core\opencl /ID:\8_3\opencv\sources\modules\core\src\opencl /ID:\8_3\opencv\build\include\opencv2\face\include /I"D:\8_3\OpenTLD-master\OpenTLD-master\build" /I"D:\8_3\OpenTLD-master\OpenTLD-master\src\config" /I"D:\8_3\OpenTLD-master\OpenTLD-master\src\tld" /I"D:\8_3\OpenTLD-master\OpenTLD-master\src\imacq" /I"D:\8_3\OpenTLD-master\OpenTLD-master\src\main" /I"D:\8_3\OpenTLD-master\OpenTLD-master" /ID:\8_3\opencv\build\include /ID:\8_3\opencv\build\include\opencv /ID:\8_3\opencv\build\include\opencv2 /ID:\8_3\opencv\build\x86\vc12\staticlib /ID:\8_3\opencv\build\x86\vc12\lib /ID:\8_3\opencv\build\x86\vc12\bin /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\8_3\opencv\sources\modules\core\include\opencv2\core\opencl /ID:\8_3\opencv\sources\modules\core\src\opencl /ID:\8_3\opencv\build\include\opencv2\face\include /I"D:\8_3\OpenTLD-master\OpenTLD-master\build" /I"D:\8_3\OpenTLD-master\OpenTLD-master\src\config" /I"D:\8_3\OpenTLD-master\OpenTLD-master\src\tld" /I"D:\8_3\OpenTLD-master\OpenTLD-master\src\imacq" /I"D:\8_3\OpenTLD-master\OpenTLD-master\src\main" /I"D:\8_3\OpenTLD-master\OpenTLD-master" /ID:\8_3\opencv\build\include /ID:\8_3\opencv\build\include\opencv /ID:\8_3\opencv\build\include\opencv2 /ID:\8_3\opencv\build\x86\vc12\staticlib /ID:\8_3\opencv\build\x86\vc12\lib /ID:\8_3\opencv\build\x86\vc12\bin /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GetFileName.cpp Source.cpp
          Source.cpp
+         GetFileName.cpp
+     1>c:\users\9470m\documents\visual studio 2013\projects\createdata\createdata\getfilename.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\9470m\documents\visual studio 2013\projects\createdata\createdata\getfilename.cpp(124): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\9470m\documents\visual studio 2013\projects\createdata\createdata\getfilename.cpp(150): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\9470m\Documents\Visual Studio 2013\Projects\CreateData\Debug\CreateData.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\8_3\opencv\sources\modules\core\include\opencv2\core\opencl /LIBPATH:D:\8_3\opencv\sources\modules\core\src\opencl /LIBPATH:D:\8_3\opencv\build\include\opencv2\face\include /LIBPATH:"D:\8_3\OpenTLD-master\OpenTLD-master\build" /LIBPATH:"D:\8_3\OpenTLD-master\OpenTLD-master\src\config" /LIBPATH:"D:\8_3\OpenTLD-master\OpenTLD-master\src\tld" /LIBPATH:"D:\8_3\OpenTLD-master\OpenTLD-master\src\imacq" /LIBPATH:"D:\8_3\OpenTLD-master\OpenTLD-master\src\main" /LIBPATH:"D:\8_3\OpenTLD-master\OpenTLD-master" /LIBPATH:D:\8_3\opencv\build\include /LIBPATH:D:\8_3\opencv\build\include\opencv /LIBPATH:D:\8_3\opencv\build\include\opencv2 /LIBPATH:D:\8_3\opencv\build\x86\vc12\staticlib /LIBPATH:D:\8_3\opencv\build\x86\vc12\lib /LIBPATH:D:\8_3\opencv\build\x86\vc12\bin opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\9470m\Documents\Visual Studio 2013\Projects\CreateData\Debug\CreateData.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\9470m\Documents\Visual Studio 2013\Projects\CreateData\Debug\CreateData.lib" /MACHINE:X86 Debug\ConvertData.obj
          Debug\GetFileName.obj
@@ -12,4 +17,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.44
+Time Elapsed 00:00:03.14

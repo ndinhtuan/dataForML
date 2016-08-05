@@ -1,4 +1,5 @@
 #include "GetFileName.h"
+#include "ConvertData.h"
 #include <Windows.h>
 #include <fstream>
 
@@ -48,7 +49,7 @@ void readFilenames(std::vector<string> &fileNames, const string &directory){
 			continue;
 		if (is_directory)
 			continue;
-		fileNames.push_back(full_file_name);
+		fileNames.push_back(file_name);
 
 	} while (FindNextFile(dir, &file_data));
 
@@ -129,4 +130,24 @@ void GetFileName::concatFileInFolder(const string &srcFile, const string &fileCo
 		ss.clear();
 	}
 
+}
+
+void GetFileName::concatFileInFolderToFile(const string &srcFile, const string &fileConcat, const string &dstFile){
+	vector<int> v;
+
+	ifstream input(fileConcat);
+
+	while (!input.eof()){
+		int a;
+		input >> a;
+
+		if ((int)input.tellg() != -1){
+			v.push_back(a);
+		}
+	}
+
+	ofstream output(dstFile);
+	for (int i = 0; i < fileNames.size(); i++){
+		output << v[i] << " " << fileNames[i] << endl;
+	}
 }
